@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-crash-todolist';
+  name = 'Jack Snow';
+  // title:string;
+
+  // constructor(
+  //   title = '',
+  //   isCompleted = false
+  // ) {
+  //   this.title = title,
+  //   this.isCompleted = false
+  // }
+
+
+  x: [string, number] = ['wolfshtain', 42];
 }
+
