@@ -6,18 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  name = 'Jack Snow';
-  // title:string;
-
-  // constructor(
-  //   title = '',
-  //   isCompleted = false
-  // ) {
-  //   this.title = title,
-  //   this.isCompleted = false
+  // name0: string = 'Jack Snow';
+  // name: string = 'Jack Snow';
+  // name2: string = '';
+  // x: [string, number] = ['wolfshtain', 42];
+  //
+  // constructor() {
+  //   console.log(123)
+  //   this.name = 'viliams';
+  //   this.changeName('Abraham Maslou');
   // }
-
-
-  x: [string, number] = ['wolfshtain', 42];
+  //
+  // changeName(name:string): void {
+  //   this.name2= name;
+  // }
 }
 
