@@ -1,1 +1,12 @@
-<p>todos works!</p>
+<!--<h1>i am director</h1>-->
+<!--<h2>Congrat {{user}}</h2>-->
+<!--<hr>-->
+<h1>{{title}}</h1>
+<!--<ul *ngFor="let t of todos">-->
+<!--  <li>{{t.title}}</li>-->
+<!--</ul>-->
+<app-todo-item *ngFor="let todo of todos" [intodoitem]="todo">
+</app-todo-item>
+<!--<div *ngFor="let t of todos">-->
+<!--  <div>{{t.completed}}</div>-->
+<!--</div>-->
