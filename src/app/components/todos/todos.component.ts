@@ -27,7 +27,10 @@ export class TodosComponent implements OnInit {
     // }
     // console.log(dir.up, dir.down)
 
-    this.todos = this.todoService.getTodos();
+    // this.todos = this.todoService.getTodos();
+    this.todoService.getTodos().subscribe(todos => {
+      this.todos = todos;
+    });
   }
 
 }
